@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-div.overflow-x-scroll::-webkit-scrollbar {
+div.overflow-x-scroll::-webkit-scrollbar,
+div.overflow-scroll::-webkit-scrollbar {
   display: none;
 }
